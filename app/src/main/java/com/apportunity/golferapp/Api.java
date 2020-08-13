@@ -2,6 +2,8 @@ package com.apportunity.golferapp;
 
 public class Api {
 
+//    Root URL connected to the web server.
+
     private static final String ROOT_URL = "http://ff95c1e4320d.ngrok.io/HeroApi/v1/Api.php?apicall=";
 
     public static final String URL_CREATE_HERO = ROOT_URL + "createhero";
